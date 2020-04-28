@@ -1,0 +1,3 @@
+Z:\racheli kaplan\app project\nutrition_app\nutrition_app\obj\Debug\nutrition_app.njsprojAssemblyReference.cache
+Z:\racheli kaplan\app project\nutrition_app\nutrition_app\obj\Debug\nutrition_app.njsproj.CoreCompileInputs.cache
+Z:\racheli kaplan\app project\nutrition_app\nutrition_app\bin\Microsoft.NodejsTools.WebRole.dll

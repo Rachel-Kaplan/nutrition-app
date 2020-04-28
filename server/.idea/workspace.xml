@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a35410ee-9179-4460-bfe6-a1ce15ed313b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1X1sYE9x7vfkyPlEOb6URLOARg4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="vegetables.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/routes/vegetables.js" working-dir="$PROJECT_DIR$/server/routes">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.vegetables.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a35410ee-9179-4460-bfe6-a1ce15ed313b" name="Default Changelist" comment="" />
+      <created>1580224980636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580224980636</updated>
+      <workItem from="1580224981856" duration="2292000" />
+      <workItem from="1580227642758" duration="1200000" />
+      <workItem from="1580229655630" duration="1869000" />
+      <workItem from="1580742701168" duration="1191000" />
+      <workItem from="1581435992134" duration="9064000" />
+      <workItem from="1582484824964" duration="2392000" />
+      <workItem from="1583601831365" duration="3801000" />
+      <workItem from="1583953574427" duration="10000" />
+      <workItem from="1584366105418" duration="3134000" />
+      <workItem from="1584381156822" duration="809000" />
+      <workItem from="1587246546103" duration="660000" />
+      <workItem from="1587285373176" duration="414000" />
+      <workItem from="1587286260373" duration="1932000" />
+      <workItem from="1587378568978" duration="1012000" />
+      <workItem from="1588004242546" duration="2909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="631" y="153" key="FileChooserDialogImpl" timestamp="1587378647573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582484853152" />
+    <state x="505" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584381251616" />
+    <state x="631" y="153" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587378647573" />
+    <state x="468" y="151" key="SettingsEditor" timestamp="1587285765852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587285765852" />
+    <state x="419" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1584366106490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582484842964" />
+    <state x="419" y="206" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584366106490" />
+    <state x="346" y="96" width="588" height="488" key="find.popup" timestamp="1581441189267">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="346" y="96" width="588" height="488" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1581441189267" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/routes/vegetables.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/users.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/userMeals.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
