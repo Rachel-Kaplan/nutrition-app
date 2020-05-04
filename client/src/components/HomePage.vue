@@ -2,10 +2,10 @@
     <div>
         <H1>Health to the life</H1>
         <p>האפליקציה שתעזור לך לשמור על אורח חיים בריא וגם לרדת במשקל</p>
-        <input @click="openLoginPage"
+        <input @click="openRegisterPage"
                value="אני חדש כאן ומעוניין להירשם">
         <br>
-        <input @click="openRegisterPage"
+        <input @click="openLoginPage"
                value="אני רשום כבר"/>
     </div>
 </template>

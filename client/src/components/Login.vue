@@ -1,51 +1,64 @@
 <template>
-    <div>
-        <input id="name"
-               v-model="name"
-               type="text"
-               name="שם"
-               placeholder="שם">
-        <br>
-        <input id="age"
-               v-model="age"
-               type="number"
-               name="age"
-               min="0"
-               placeholder="גיל">
-        <br>
-        <input id="דואר אלקטרוני"
-               v-model="email"
-               type="text"
-               name="דואר אלקטרוני"
-               placeholder="דואר אלקטרוני">
-        <br>
-        אני<input
-            type="submit"
-            value="גבר"
-    >
-        <input
-                type="submit"
-                value="אישה"
-        >
-        <br>
-        המשקל שלי כיום <input
-            id="Weight"
-            v-model="Weight"
-            type="number"
-            name="Weight"
-            min="0"
-    >
-        <br>
-        <input type="submit"
-               value="שלב הבא ואחרון">
-    </div>
+
+  <div>
+    <p v-if="errors.length">
+    <p>פרטי הזדהות</p>
+    <ul>
+      <li v-for="error in errors">{{error}}</li>
+    </ul>
+    <p>
+      <label for="name">שם</label>
+      <input id="name"
+             v-model="user.name"
+             type="text"
+             name="name">
+    </p>
+    <input id="דואר אלקטרוני"
+           v-model="email"
+           type="text"
+           name="דואר אלקטרוני"
+           placeholder="דואר אלקטרוני">
+    <p>
+      <label for="movie">אני מעוניין בהתאמת תפריט לפי</label>
+      <select id="movie"
+              v-model="movie"
+              name="movie">
+        <option>תפריט לפי המלצות משרד הבריאות</option>
+        <option>תפריט מוגבל קלוריות</option>
+        <option>תפריט מותאם מצב בריאותי</option>
+      </select>
+    </p>
+    <p>
+
+
+      <button @click="checkForm()">היכנס</button>
+
+    </p>
+
+  </div>
 </template>
 <script>
-    export default {
-        name: 'Login'
-    }
-</script>
 
+  export default {
+    name: 'register',
+    data() {
+      return {
+        errors: [],
+
+        movie: null,
+        user: {}
+      }
+    },
+    mounted() {
+    },
+    methods: {
+      checkForm: function (e) {
+
+
+      }
+    }
+  }
+</script>
 <style>
 
 

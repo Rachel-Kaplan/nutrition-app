@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a35410ee-9179-4460-bfe6-a1ce15ed313b" name="Default Changelist" comment="" />
+    <list default="true" id="a35410ee-9179-4460-bfe6-a1ce15ed313b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../client/src/components/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/chooseRecipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/chooseRecipe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/register_new.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/register_new.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +75,8 @@
       <workItem from="1587286260373" duration="1932000" />
       <workItem from="1587378568978" duration="1012000" />
       <workItem from="1588004242546" duration="2909000" />
+      <workItem from="1588529375939" duration="584000" />
+      <workItem from="1588618329306" duration="300000" />
     </task>
     <servers />
   </component>

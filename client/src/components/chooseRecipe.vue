@@ -12,16 +12,16 @@
         <button @click="armonimSoup()">מרק ערמונים עם פטריות וכרישה
         </button>
         <br>
-        <button @click>מרק עדשים
+        <button @click="adashimSoup()">מרק עדשים
         </button>
         <br>
-        <button @click>פילה דג עם ירקות בתנור
+        <button @click="filafish()">פילה דג עם ירקות בתנור
         </button>
         <br/>
-        <button @click>סלומון בתנור בג'ינג'ר ודבש
+        <button @click="salmonfish()">סלומון בתנור בג'ינג'ר ודבש
         </button>
         <br/>
-        <button @click>שעועית ירוקה עם בטטה
+        <button @click="sheuit()">שעועית ירוקה עם בטטה
         </button>
 
       </div>
@@ -43,6 +43,10 @@
     },
     methods: {
       armonimSoup()
+      {
+        this.$router.push(`/armonimSoup/`)
+      },
+      adashimSoup()
       {
         this.$router.push(`/armonimSoup/`)
       }
