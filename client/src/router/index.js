@@ -9,6 +9,11 @@ import Login from "../components/Login";
 import registerNew from "../components/register_new";
 import chooseRecipe from "../components/chooseRecipe";
 import armonimSoup from "../components/armonimSoup";
+import adashimSoup from "../components/adashimSoup";
+import salmonfish from "../components/salmonfish";
+import sheuit from "../components/sheuit";
+import filaFish from "../components/filaFish";
+
 
 
 
@@ -45,7 +50,24 @@ export default new Router({
       {
         path: '/armonimSoup',
         component: armonimSoup
+      },
+      {
+        path: '/adashimSoup',
+        component: adashimSoup
+      },
+      {
+        path: '/salmonfish',
+        component: salmonfish
+      },
+      {
+        path: '/sheuit',
+        component: sheuit
+      },
+      {
+        path: '/filaFish',
+        component: filaFish
       }
+
     ]
 })
 Vue.use(Router)

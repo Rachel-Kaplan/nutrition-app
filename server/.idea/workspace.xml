@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a35410ee-9179-4460-bfe6-a1ce15ed313b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../client/src/components/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomePage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/adashimSoup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/filaFish.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/salmonfish.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/sheuit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/assets/adashimSoup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/assets/armonimSoup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/assets/filaFish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/assets/salmonFish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/assets/sheuit.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/chooseRecipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/chooseRecipe.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/register_new.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/register_new.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/logoPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/logoPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +84,9 @@
       <workItem from="1587378568978" duration="1012000" />
       <workItem from="1588004242546" duration="2909000" />
       <workItem from="1588529375939" duration="584000" />
-      <workItem from="1588618329306" duration="300000" />
+      <workItem from="1588618329306" duration="814000" />
+      <workItem from="1588756663975" duration="1169000" />
+      <workItem from="1588779289711" duration="553000" />
     </task>
     <servers />
   </component>

@@ -48,7 +48,19 @@
       },
       adashimSoup()
       {
-        this.$router.push(`/armonimSoup/`)
+        this.$router.push(`/adashimSoup/`)
+      },
+      filafish()
+      {
+        this.$router.push(`/filafish/`)
+      },
+      salmonfish()
+      {
+        this.$router.push(`/salmonfish/`)
+      },
+      sheuit()
+      {
+        this.$router.push(`/sheuit/`)
       }
     }
   };
