@@ -31,14 +31,15 @@
         <div v-if="choosenProducts[2]!=''">ירק:
           {{categories[2].list[choosenProducts[2]-1].name}}
           {{categories[2].list[choosenProducts[2]-1].Calories}}
-        </div>
+      
 
         <p> סה"כ:</p>
         <div>{{getCount()}}</div>
-
+  </div>
         <!--{{product.name.active}}-->
-      </ul>
       <button @click="Recipes()">זהו, בחרתי ארוחה</button>
+       </ul>
+     
     </div>
     <!--<table v-if="list.length">-->
     <!--<tbody>-->
@@ -53,6 +54,7 @@
     <!--</tbody>-->
     <!--</table>-->
   </div>
+ 
 </template>
 <script>
   export default {

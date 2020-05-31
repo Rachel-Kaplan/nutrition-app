@@ -1,5 +1,7 @@
 <template>
-    <div>
+
+  <div id = "background">
+    <div class="btn">
         <H1>Health to the life</H1>
         <p>האפליקציה שתעזור לך לשמור על אורח חיים בריא וגם לרדת במשקל</p>
         <input @click="openRegisterPage"
@@ -8,6 +10,8 @@
         <input @click="openLoginPage"
                value="אני רשום כבר"/>
     </div>
+        </div>
+
 </template>
 <script>
     // export default new Router({
@@ -32,41 +36,57 @@
     }
 </script>
 <style>
-    th {
-        width: 30%;
-    }
-
-    div {
+.btn {
         position: center;
         padding-top: 30px;
         width: 360px;
         height: 640px;
-        background-color: #f1f1f1;
+       padding-top: 120px;
         text-align: center;
         background-position: center;
     }
+ #background {
+    background: url("../assets/2header.png") ;
+    background-size: 100% 100%;
+    /*background-size: cover;*/
+    width: 360px;
+    height: 640px;
+    /*align-content: center;*/
+    /*justify-content: center;*/
+
+    /*margin-top: ;*/
+    /*background-position: top;*/
+  }
+
+    th {
+        width: 30%;
+    }
+
+   
 
     H1 {
         font-family: Coneria Script Demo;
     }
 
     p {
-        font-family: 'assistant', heebo;
+        font-family:  heebo;
     }
 
-    input {
-        font-family: heebo;
-        background-color: white;
-        border: 1px;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
+   input {
+    width: 100%;
+    
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 250px;
+    font-family: heebo;
+    color-text: black;
+    direction: rtl;
 
-    }
+    
+  }
+    
 
     input, select {
         width: 100%;
@@ -93,11 +113,7 @@
         background-color: #45a049;
     }
 
-    div {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
+  
 </style>
 
 

@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a35410ee-9179-4460-bfe6-a1ce15ed313b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/components/adashimSoup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/filaFish.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/salmonfish.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/sheuit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/assets/adashimSoup.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/assets/armonimSoup.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/assets/filaFish.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/assets/salmonFish.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/assets/sheuit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/chooseRecipe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/chooseRecipe.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/logoPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/logoPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/assets/2header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,7 +76,16 @@
       <workItem from="1588529375939" duration="584000" />
       <workItem from="1588618329306" duration="814000" />
       <workItem from="1588756663975" duration="1169000" />
-      <workItem from="1588779289711" duration="553000" />
+      <workItem from="1588779289711" duration="629000" />
+      <workItem from="1589480225525" duration="2423000" />
+      <workItem from="1589660590310" duration="668000" />
+      <workItem from="1589702941911" duration="984000" />
+      <workItem from="1589808578850" duration="2162000" />
+      <workItem from="1589883310841" duration="594000" />
+      <workItem from="1589904675492" duration="1314000" />
+      <workItem from="1589911085565" duration="704000" />
+      <workItem from="1590476877243" duration="577000" />
+      <workItem from="1590515790332" duration="866000" />
     </task>
     <servers />
   </component>
@@ -94,12 +93,12 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="631" y="153" key="FileChooserDialogImpl" timestamp="1587378647573">
+    <state x="631" y="153" key="FileChooserDialogImpl" timestamp="1589904774825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582484853152" />
     <state x="505" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584381251616" />
-    <state x="631" y="153" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587378647573" />
+    <state x="631" y="153" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589904774825" />
     <state x="468" y="151" key="SettingsEditor" timestamp="1587285765852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

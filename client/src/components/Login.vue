@@ -1,23 +1,33 @@
 <template>
 
-  <div>
-    <p v-if="errors.length">
-    <p>פרטי הזדהות</p>
+          <div class="wrapper">
+      <div id = "background">
+
+        <div class="block-group">
+<!--    <p v-if="errors.length">-->
+
+    <h3>בואו נתחיל</h3>
+        <h6>אנחנו מאמינים ששמירה על תזונה
+          <br>
+          בריאה ונכונה מתחילה מהאוכל
+          <br>
+          שאתה אוהב.</h6>
     <ul>
       <li v-for="error in errors">{{error}}</li>
     </ul>
     <p>
-      <label for="name">שם</label>
+      <label for="name"></label>
       <input id="name"
              v-model="user.name"
              type="text"
-             name="name">
+             name="name"
+             placeholder="דואר אלקטרוני או שם משתמש">
     </p>
-    <input id="דואר אלקטרוני"
+    <input id="סיסמא"
            v-model="email"
            type="text"
-           name="דואר אלקטרוני"
-           placeholder="דואר אלקטרוני">
+           name="סיסמא"
+           placeholder="סיסמא">
     <p>
       <label for="movie">אני מעוניין בהתאמת תפריט לפי</label>
       <select id="movie"
@@ -30,10 +40,11 @@
     </p>
     <p>
 
-
       <button @click="checkForm()">היכנס</button>
 
     </p>
+      </div>
+      </div>
 
   </div>
 </template>
@@ -53,79 +64,98 @@
     },
     methods: {
       checkForm: function (e) {
+      },
+      popup: function (popup) {
 
 
       }
     }
   }
 </script>
-<style>
+<style scoped>
 
+  #background {
+    background: url("../assets/2header.png") ;
+    background-size: 100% 100%;
+    /*background-size: cover;*/
+    width: 360px;
+    height: 640px;
+    /*align-content: center;*/
+    /*justify-content: center;*/
 
-    th {
-        width: 30%;
-    }
+    /*margin-top: ;*/
+    /*background-position: top;*/
+  }
 
-    div {
-        position: center;
-        padding-top: 30px;
-        width: 360px;
-        height: 640px;
-        background-color: #f1f1f1;
-        text-align: center;
-        background-position: center;
-    }
+  .wrapper {
+    /*display: grid;*/
+    width: 360px;
+    height: 640px;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+    /*padding: 200px;*/
+    margin: auto;
+    text-align: center;
 
-    H1 {
-        font-family: Coneria Script Demo;
-    }
+  }
+  .block-group{
+   padding-top: 100px;
+  }
 
-    p {
-        font-family: 'assistant', heebo;
-    }
+   p {
+    font-family: 'assistant', heebo;
 
-    input {
-        font-family: heebo;
-        background-color: white;
-        border: 1px;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
+  }
 
-    }
+  input {
+    font-family: heebo;
+    background-color: white;
+    border: 1px;
 
-    input, select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-
-    /*input {*/
-    /*width: 100%;*/
-    /*background-color: #4CAF50;*/
-    /*color: white;*/
-    /*padding: 14px 20px;*/
-    /*margin: 8px 0;*/
-    /*border: none;*/
-    /*border-radius: 4px;*/
+    padding: 5px 10px;
+    text-align: right;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 12px;
+    /*margin: 4px 2px;*/
     /*cursor: pointer;*/
-    /*}*/
 
-    input:hover {
-        background-color: #45a049;
-    }
+  }
+  input, select {
+    width: 245px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input {
+    width: 100%;
+    /*background-color: #4CAF50;*/
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    /*cursor: pointer;*/
+    width: 250px;
+  }
 
-    div {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
+  /*input:hover {*/
+  /*  background-color: #45a049;*/
+  /*}*/
+  h3{
+    color: #ffc23d;
+    font-family: "Heebo";
+    font-size: 24pt;
+  }
+  h6{
+    font-family: "Heebo Light";
+    font-size: 12pt;
+    direction: rtl;
+
+  }
+
 </style>
