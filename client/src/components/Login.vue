@@ -1,6 +1,6 @@
 <template>
 
-          <div class="wrapper">
+     <div class="wrapper">     
       <div id = "background">
 
         <div class="block-group">
@@ -42,6 +42,7 @@
 
       <button @click="checkForm()">היכנס</button>
 
+    </p>
     </p>
       </div>
       </div>
@@ -88,7 +89,7 @@
   }
 
   .wrapper {
-    /*display: grid;*/
+    display: grid;
     width: 360px;
     height: 640px;
     grid-template-columns: 100%;
@@ -104,38 +105,40 @@
   }
 
    p {
-    font-family: 'assistant', heebo;
+    font-family:  heebo;
 
   }
 
   input {
+    
     font-family: heebo;
     background-color: white;
-    border: 1px;
-
-    padding: 5px 10px;
+    // border: 1px;
+padding: 0px 10px;
     text-align: right;
     text-decoration: none;
     /*display: inline-block;*/
     font-size: 12px;
-    /*margin: 4px 2px;*/
+    margin: 0px 2px;
     /*cursor: pointer;*/
 
   }
   input, select {
+    margin-top: 20px;
     width: 245px;
-    padding: 12px 20px;
+    padding: 8px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: heebo;
   }
   input {
+   
     width: 100%;
-    /*background-color: #4CAF50;*/
     color: white;
-    padding: 14px 20px;
+    // padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-bottom: 1px solid black;
@@ -155,7 +158,20 @@
     font-family: "Heebo Light";
     font-size: 12pt;
     direction: rtl;
+    padding-bottom: 5px;
 
   }
+  button {
+  background-color: #78cc29; /* Green */
+  border: none;
+  color: white;
+  padding:2px 105px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: heebo;
+  
+}
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-
+<div class="wrapper">
   <div id = "background">
     <div class="btn">
         <H1>Health to the life</H1>
@@ -11,7 +11,7 @@
                value="אני רשום כבר"/>
     </div>
         </div>
-
+</div>
 </template>
 <script>
     // export default new Router({
@@ -36,6 +36,16 @@
     }
 </script>
 <style>
+.wrapper {
+    /*display: grid;*/
+    width: 360px;
+    height: 640px;
+    grid-template-columns: 100% ;
+    align-items: center;
+    justify-content: center;
+    /*padding: 200px;*/
+    margin: auto;
+  }
 .btn {
         position: center;
         padding-top: 30px;

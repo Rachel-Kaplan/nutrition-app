@@ -9,19 +9,19 @@
       <!-- <button class="btn btn-sm">-->
       <!-- </button>-->
       <div class="btn-group">
-        <button @click="armonimSoup()">מרק ערמונים עם פטריות וכרישה
+        <button @click="armonimSoup()">
         </button>
         <br>
-        <button @click="adashimSoup()">מרק עדשים
+        <button @click="adashimSoup()">
         </button>
         <br>
-        <button @click="filafish()">פילה דג עם ירקות בתנור
+        <button @click="filafish()">
         </button>
         <br/>
-        <button @click="salmonfish()">סלומון בתנור בג'ינג'ר ודבש
+        <button @click="salmonfish()">
         </button>
         <br/>
-        <button @click="sheuit()">שעועית ירוקה עם בטטה
+        <button @click="sheuit()">
         </button>
 
       </div>

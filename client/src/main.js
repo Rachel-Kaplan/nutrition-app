@@ -6,9 +6,12 @@ import 'element-ui/lib/theme-default/index.css'
 import App from './App'
 import router from './router'
 import axios from 'axios'
+//import VueSimleAlert from "vue-simple-alert"
+
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+//Vue.use(VueSimpleAlert);
 Vue.prototype.$http =  axios
 /* eslint-disable no-new */
 new Vue({

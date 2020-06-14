@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper">
-    <div class="title">
+    
       <h1>ארוחת צהריים</h1>
       <p>בחר מנה מתוך התפריט המוצע</p>
-    </div>
+    
     <div class="nav">
       <button v-for="category in categories" @click="chooseCategory(category.id)">{{category.name}}</button>
-    </div>
+    
     <div class="food_list">
       <ul>
         <li v-for="(product,idx) in activeFoodList">
@@ -39,7 +39,7 @@
         <!--{{product.name.active}}-->
       <button @click="Recipes()">זהו, בחרתי ארוחה</button>
        </ul>
-     
+     </div>
     </div>
     <!--<table v-if="list.length">-->
     <!--<tbody>-->
@@ -204,9 +204,16 @@
 
 </script>
 <style scoped>
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 370px;
+  ..wrapper {
+    display: grid;
+    width: 360px;
+    height: 640px;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+    /*padding: 200px;*/
+    margin: auto;
+    text-align: center;
+
   }
 </style>
