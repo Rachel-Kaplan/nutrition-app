@@ -17,4 +17,19 @@
     width: 360px;
     height: 640px;
   }
+  .wrapper {
+    display: grid;
+    width: 360px;
+    height: 640px;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+    /*padding: 200px;*/
+    margin: auto;
+#app{
+     
+     display: none;
+  }
+  
+}
 </style>

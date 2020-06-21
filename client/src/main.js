@@ -7,10 +7,12 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 //import VueSimleAlert from "vue-simple-alert"
-
+import Toasted from 'vue-toasted';
+ 
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.use(Toasted)
 //Vue.use(VueSimpleAlert);
 Vue.prototype.$http =  axios
 /* eslint-disable no-new */

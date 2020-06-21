@@ -2,7 +2,7 @@
 <div class="wrapper"> 
 <div id = "background">
   <div class="block-group">
-    <p>הרשמה ושאלון היכרות</p>
+    <H1>הרשמה ושאלון היכרות</H1>
 
     <p v-if="errors.length">
     </p>
@@ -16,8 +16,7 @@
              type="text"
              name="name">
     </p>
-
-    <p>
+<p>
       <label for="age">גיל</label>
       <input id="age"
              v-model="user.age"
@@ -25,14 +24,15 @@
              name="age"
              min="0">
     </p>
-    <input
-      type="submit"
+    אני
+    <input id="Gender"
+    type="submit"
       value="גבר"
     >
-    <input
+    <input id="Gender"
       type="submit"
       value="אישה"
-    >אני
+    >
     <br>
     המשקל שלי כיום <input
     id="Weight"
@@ -70,15 +70,19 @@ movie: null,
     },
     methods: {
       checkForm: function (e) {
-this.user.email = 'aa@gmail.com'
+ this.user.email = 'aa@gmail.com'
         this.user.gender = 1
         this.user.weight = 55
         const self = this;
         this.$http.post('http://localhost:3000/user', this.user)
           .then(function (response) {
             debugger
+            self.$toasted.show('פרטיך נקלטו במערכת',{duration:2000, position:'top-center'});
+            // myToast.goAway(1500);
             let id = 123
-            self.$router.push(`select-meal/${id}`)
+            setTimeout(()=>{
+              self.$router.push(`select-meal/${id}`
+              )},2000);
             console.log(response);
           })
           .catch(function (error) {
@@ -90,7 +94,6 @@ this.user.email = 'aa@gmail.com'
             }
           });
       },
-   // this.$alert("פרטיך נקלטו במערכת. אתה מוזמן להמשיך לבחירת המתכונים שהתאמרנו עבורך באופן אישי");
 
     }
   }
@@ -115,30 +118,36 @@ this.user.email = 'aa@gmail.com'
     margin: auto;
     text-align: center;
     font-family: heebo;
-
-  }
+}
    .block-group{
-   padding-top: 100px;
+   padding-top: 130px;
    direction: rtl;
   }
-  input[type=text], select {
-    margin-top: 20px;
-    width: 245px;
-    padding: 8px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: heebo;
-  }
+  toasted{
 
+  }
+  input {
+    font-family: heebo;
+    background-color: white;
+    // border: 1px;
+padding: 0px 10px;
+    text-align: right;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 12px;
+    margin: 0px 4px;
+    /*cursor: pointer;*/
+
+  }
+#Gender{
+  background-color:  #78cc29;
+}
   input[type=submit] {
     margin: 8px 0;
     border: none;
   /*cursor: pointer;*/
     width: 80px;
-background-color: #78cc29; /* Green */
+
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -158,8 +167,7 @@ background-color: #78cc29; /* Green */
   
   }
   input {
-   
-    width: 100%;
+   width: 100%;
     color: black;
     // padding: 14px 20px;
     margin: 8px 0;
@@ -168,15 +176,16 @@ background-color: #78cc29; /* Green */
     /*cursor: pointer;*/
     width: 250px;
   }
-
-
-  input[type=submit]:hover {
+#movie{
+   width: 100%;
+    width: 280px;
+    height: 40px;
+}
+input[type=submit]:hover {
     background-color: #45a049;
     font-family:Heebo;
   }
-
- 
-   button {
+button {
   background-color: #78cc29; /* Green */
   border: none;
   color: white;
@@ -191,5 +200,10 @@ background-color: #78cc29; /* Green */
   p{
     direction: rtl;
     font-family:Heebo;
+   
   }
+  H1{
+     font-size:22px;
+  }
+  
 </style>

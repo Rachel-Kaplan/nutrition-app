@@ -13,6 +13,7 @@ import adashimSoup from "../components/adashimSoup";
 import salmonfish from "../components/salmonfish";
 import sheuit from "../components/sheuit";
 import filaFish from "../components/filaFish";
+import logoPage from "../components/logoPage";
 
 
 
@@ -21,8 +22,13 @@ export default new Router({
     routes: [
         {
             path: '/',
-            component: HomePage
+            component: logoPage
         },
+        {
+          path: '/home-page',
+          component: HomePage
+      },
+        
         {
             path: '/register_new',
             component: registerNew

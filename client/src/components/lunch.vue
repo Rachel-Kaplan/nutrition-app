@@ -1,13 +1,14 @@
 <template>
   <div class="wrapper">
-    
+     <div id = "background">
+     <div class="block-group">
       <h1>ארוחת צהריים</h1>
       <p>בחר מנה מתוך התפריט המוצע</p>
     
     <div class="nav">
       <button v-for="category in categories" @click="chooseCategory(category.id)">{{category.name}}</button>
     
-    <div class="food_list">
+     <div class="food_list">
       <ul>
         <li v-for="(product,idx) in activeFoodList">
           <input @click="chooseProduct(product.ID)" type="radio" :value="product.name" name="pr">
@@ -31,9 +32,7 @@
         <div v-if="choosenProducts[2]!=''">ירק:
           {{categories[2].list[choosenProducts[2]-1].name}}
           {{categories[2].list[choosenProducts[2]-1].Calories}}
-      
-
-        <p> סה"כ:</p>
+      <p> סה"כ:</p>
         <div>{{getCount()}}</div>
   </div>
         <!--{{product.name.active}}-->
@@ -41,20 +40,9 @@
        </ul>
      </div>
     </div>
-    <!--<table v-if="list.length">-->
-    <!--<tbody>-->
-    <!--<th>מנת חלבון</th>-->
-    <!--<th>קלוריות</th>-->
-    <!--<tr v-for="(row, index) in list" :key="row.ID">-->
-    <!--<td>{{ row }}</td>-->
-    <!--<td>{{ row }}</td>-->
-    <!--<input type="radio" :id="index" name="contact">-->
-    <!--</tr>-->
-    <!--<button @click="">המשך למנה הבאה</button>-->
-    <!--</tbody>-->
-    <!--</table>-->
+    </div>
   </div>
- 
+ </div>
 </template>
 <script>
   export default {
@@ -72,8 +60,7 @@
         choosenProducts: ['', '', ''],
         userId: ''
       }
-
-    },
+},
     created() {
       this.getProtein();
       this.getCarbohydrate();
@@ -81,8 +68,7 @@
       this.getVegetables();
     },
     mounted() {
-      // this.userId = this.$route.params.id
-    },
+     },
     methods: {
       chooseProduct(value) {
         this.choosenProducts[this.activeIndex] = value;
@@ -187,24 +173,15 @@
       },
     }
   }
-  //         const self = this;
-  // this.$http.post('http://localhost:1337/lunch',{userID:11,meals_code:56})
-  //     .then(function (response) {
-  //         console.log(response);
-  //     })
-  //     .catch(function (error) {
-  //
-  //         if (error.response) {
-  //             console.log(error.response.data);
-  //             console.log(error.response.status);
-  //             console.log(error.response.headers);
-  //         }
-  //     })
-
-
 </script>
 <style scoped>
-  ..wrapper {
+  #background {
+    background: url("../assets/2header.png") ;
+    background-size: 100% 100%;
+   width: 360px;
+    height: 640px;
+   }
+.wrapper {
     display: grid;
     width: 360px;
     height: 640px;
@@ -214,6 +191,9 @@
     /*padding: 200px;*/
     margin: auto;
     text-align: center;
-
+    font-family: heebo;
+}
+.block-group{
+   padding-top: 100px;
   }
 </style>

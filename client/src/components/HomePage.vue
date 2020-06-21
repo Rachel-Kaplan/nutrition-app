@@ -3,7 +3,11 @@
   <div id = "background">
     <div class="btn">
         <H1>Health to the life</H1>
-        <p>האפליקציה שתעזור לך לשמור על אורח חיים בריא וגם לרדת במשקל</p>
+        <p>
+       
+     האפליקציה שתעזור לך לשמור
+     </br>
+         על אורח חיים בריא וגם לרדת במשקל</p>
         <input @click="openRegisterPage"
                value="אני חדש כאן ומעוניין להירשם">
         <br>
@@ -76,6 +80,7 @@
 
     H1 {
         font-family: Coneria Script Demo;
+        padding-top: 50px;
     }
 
     p {
@@ -96,10 +101,8 @@
 
     
   }
-    
-
     input, select {
-        width: 100%;
+        width: 70%;
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;
@@ -107,20 +110,8 @@
         border-radius: 4px;
         box-sizing: border-box;
     }
-
-    /*input {*/
-    /*width: 100%;*/
-    /*background-color: #4CAF50;*/
-    /*color: white;*/
-    /*padding: 14px 20px;*/
-    /*margin: 8px 0;*/
-    /*border: none;*/
-    /*border-radius: 4px;*/
-    /*cursor: pointer;*/
-    /*}*/
-
-    input:hover {
-        background-color: #45a049;
+input:hover {
+        background-color: #78cc29;
     }
 
   

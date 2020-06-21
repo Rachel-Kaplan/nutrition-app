@@ -90,7 +90,7 @@
   }
   .btn-group button{
     width: 330px;
-    height: 70px;
+    height: 80px;
     background-color: transparent;
     border: none;
     padding: 15px 20px;
@@ -99,7 +99,7 @@
     font-size: 20px;
   }
   .btn-group button:hover {
-    background-color: lightgrey; opacity: 0.3;
+    background-color: lightgrey; opacity: 0;
     transparent:50%;
   }
   /*div {*/
@@ -119,7 +119,9 @@
   p {
     font-family: 'assistant', heebo;
   }
-
+ #21XQUnwrK{
+    display: none;
+  }
 </style>
 <!--<style >-->
 <!--.image {-->
@@ -127,4 +129,4 @@
 <!-- height: 640px;-->
 
 
-}
+

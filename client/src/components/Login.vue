@@ -2,8 +2,7 @@
 
      <div class="wrapper">     
       <div id = "background">
-
-        <div class="block-group">
+<div class="block-group">
 <!--    <p v-if="errors.length">-->
 
     <h3>בואו נתחיל</h3>
@@ -16,11 +15,11 @@
       <li v-for="error in errors">{{error}}</li>
     </ul>
     <p>
-      <label for="name"></label>
-      <input id="name"
+      <label for="email"></label>
+      <input id="eamil"
              v-model="user.name"
-             type="text"
-             name="name"
+             
+             name="email"
              placeholder="דואר אלקטרוני או שם משתמש">
     </p>
     <input id="סיסמא"
@@ -39,8 +38,11 @@
       </select>
     </p>
     <p>
+<button @click="openLunchPage">היכנס
 
-      <button @click="checkForm()">היכנס</button>
+           </button>
+    <br>
+      
 
     </p>
     </p>
@@ -64,13 +66,13 @@
     mounted() {
     },
     methods: {
-      checkForm: function (e) {
+      openLunchPage() {
+          this.$router.push(`/lunch/`)
+        },
+         
       },
-      popup: function (popup) {
-
-
-      }
-    }
+     
+   
   }
 </script>
 <style scoped>
@@ -112,6 +114,7 @@
   input {
     
     font-family: heebo;
+    text-color:black;
     background-color: white;
     // border: 1px;
 padding: 0px 10px;
@@ -137,7 +140,7 @@ padding: 0px 10px;
   input {
    
     width: 100%;
-    color: white;
+    // color: white;
     // padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -158,13 +161,13 @@ padding: 0px 10px;
     font-family: "Heebo Light";
     font-size: 12pt;
     direction: rtl;
-    padding-bottom: 5px;
 
   }
   button {
   background-color: #78cc29; /* Green */
   border: none;
   color: white;
+  text-color: white;
   padding:2px 105px;
   text-align: center;
   text-decoration: none;
